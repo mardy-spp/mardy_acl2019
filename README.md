@@ -51,7 +51,7 @@ Following attributes are used:
 
    
 
-## Docuemnt example
+## Document example
 ```json
 {
   "entities": [
