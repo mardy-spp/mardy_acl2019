@@ -30,16 +30,16 @@ Following attributes are used:
 
 * text :     String : contains complete article text (for the public version the text is scrambled for copyright reasons)
 * entities:
- * begin:    character offset
- * end:      character offset
- * category: {LOC,ORG,PER}
+   * begin:    character offset
+   * end:      character offset
+   * category: {LOC,ORG,PER}
 * sentences
- * begin :
- * end :
+   * begin :
+   * end :
 * tokens 
- * begin :
- * end :
- * pos :
+   * begin :
+   * end :
+   * pos :
 
 ## Paper
 
