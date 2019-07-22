@@ -24,7 +24,22 @@ date and position.
 
 ## Document format
 
+Each document is encoded as JSON file.
 
+Following attributes are used:
+
+* text :     String : contains complete article text (for the public version the text is scrambled for copyright reasons)
+* entities:
+ * begin:    character offset
+ * end:      character offset
+ * category: {LOC,ORG,PER}
+* sentences
+ * begin :
+ * end :
+* tokens 
+ * begin :
+ * end :
+ * pos :
 
 ## Paper
 
