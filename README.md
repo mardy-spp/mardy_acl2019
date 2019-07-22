@@ -28,6 +28,14 @@ Each document is encoded as JSON file.
 
 Following attributes are used:
 
+* claims
+   * quote: annotated text snippet
+   * cdate: date of claim
+   * actorvalues : List of Strings for actors (persons, organizations)
+   * claims: List of Strings for claim categories (codebook)
+   * cpos: polarity
+   * begin: character offset
+   * end: character offset
 * text :     String : contains complete article text (for the public version the text is scrambled for copyright reasons)
 * entities:
    * begin:    character offset
@@ -40,8 +48,7 @@ Following attributes are used:
    * begin : character offset
    * end : character offset
    * pos : Part-Of-Speech Tag
-* claims
-   * 
+
    
 
 ## Docuemnt example
@@ -53,9 +60,7 @@ Following attributes are used:
       "category": "I-ORG",
       "begin": 0
     },
-    {
-      ...
-    },
+    ...
     {
       "end": 535,
       "category": "I-ORG",
@@ -67,9 +72,7 @@ Following attributes are used:
       "end": 16,
       "begin": 0
     },
-    {
       ...
-    },
     {
       "end": 551,
       "begin": 540
@@ -100,6 +103,7 @@ Following attributes are used:
       "end": 3,
       "begin": 0
     },
+    ...
     {
       "pos": "NN",
       "end": 551,
