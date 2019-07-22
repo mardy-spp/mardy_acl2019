@@ -18,7 +18,7 @@ date and position.
 
 ## Files
 
-* codebook.pdf      : used codebook for the annotations
+* codebook.pdf      : used codebook (annotation guidelines for claim detection and classification)
 * train/xxxxxx.JSON : used documents for training/development
 * test/xxxxxxx.JSON : used docuemnts for evaluation
 
