@@ -120,7 +120,7 @@ Who Sides With Whom? Towards Computational Construction of Discourse Networks fo
 
 S. Padó, A. Blessing, N. Blokker, E. Dayanik, S. Haunss, und J. Kuhn. Proceedings of ACL, Florence, Italy, (2019)
 
----
+```
 @inproceedings{pado19:_who_sides_with_whom,
   abstract = {Understanding the structures of political debates (which actors make
   what claims) is essential for understanding democratic political
@@ -144,4 +144,4 @@ S. Padó, A. Blessing, N. Blokker, E. Dayanik, S. Haunss, und J. Kuhn. Proceedin
   title = {Who Sides With Whom? Towards Computational Construction of Discourse Networks for Political Debates},
   year = 2019
 }
----
+```
