@@ -20,7 +20,7 @@ date and position.
 
 * codebook.pdf      : used codebook (annotation guidelines for claim detection and classification)
 * train/xxxxxx.JSON : used documents for training/development
-* test/xxxxxxx.JSON : used docuemnts for evaluation
+* test/xxxxxxx.JSON : used documents for evaluation
 
 ## Document format
 
@@ -116,3 +116,32 @@ Following attributes are used:
 
 ## Paper
 
+Who Sides With Whom? Towards Computational Construction of Discourse Networks for Political Debates
+
+S. Padó, A. Blessing, N. Blokker, E. Dayanik, S. Haunss, und J. Kuhn. Proceedings of ACL, Florence, Italy, (2019)
+
+---
+@inproceedings{pado19:_who_sides_with_whom,
+  abstract = {Understanding the structures of political debates (which actors make
+  what claims) is essential for understanding democratic political
+  decision-making. The vision of computational construction of such
+  \textit{discourse networks} from newspaper reports brings together
+  political science and natural language processing. This paper
+  presents three contributions towards this goal: (a) a requirements
+  analysis, linking the task to knowledge base population;
+  (b) a first release of an annotated corpus of
+   claims on the topic of migration, based on German newspaper reports; (c) initial modeling results.},
+  added-at = {2019-05-14T12:02:03.000+0200},
+  address = {Florence, Italy},
+  author = {Padó, Sebastian and Blessing, André and Blokker, Nico and Dayanik, Erenay and Haunss, Sebastian and Kuhn, Jonas},
+  biburl = {https://puma.ub.uni-stuttgart.de/bibtex/2483e9bdc5e88e4c647137a437739d49a/sp},
+  booktitle = {Proceedings of ACL},
+  interhash = {4f32326209adb681faaf38dc6919e57f},
+  intrahash = {483e9bdc5e88e4c647137a437739d49a},
+  keywords = {conference imported myown},
+  note = {Accepted for publication},
+  timestamp = {2019-07-07T00:04:43.000+0200},
+  title = {Who Sides With Whom? Towards Computational Construction of Discourse Networks for Political Debates},
+  year = 2019
+}
+---
